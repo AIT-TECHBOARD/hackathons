@@ -1,0 +1,35 @@
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:pink;
+}
+
+li{
+float:left;
+margin-left:20px;
+}
+
+li a{
+text-align:center;
+display:block;
+color:white;
+padding:14px 16px;
+text-decoration:none;
+}
+
+li a:hover{
+background-color:green;
+text-decoration:underline;
+}
+
+.d1{
+width:50%;
+font-size:18px;
+font-weight:bold;
+background-color:purple;
+word-wrap:break-word;
+line-height:25px;
+text-align:justify;
+}
