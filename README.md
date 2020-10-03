@@ -1,6 +1,6 @@
 
 # Technical & Engineering board AIT Pune-HACKATHONS
-<img src="tb.PNG" style="height:50px;"/>
+<img src="tb favicon.PNG"/>
  A website for Hackathons that will be organized by the Technical & Engineering board AIT Pune-HACKATHONS.Participate and horn your skills!
  <h3>How it works?</h3>
  <ul>
