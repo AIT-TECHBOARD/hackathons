@@ -1,5 +1,6 @@
-<img src="tb.PNG"/>
+
 # Technical & Engineering board AIT Pune-HACKATHONS
+<img src="tb.PNG" style="height:200px;"/>
  A website for Hackathons that will be organized by the Technical & Engineering board AIT Pune-HACKATHONS.Participate and horn your skills!
  <h3>How it works?</h3>
  <ul>
