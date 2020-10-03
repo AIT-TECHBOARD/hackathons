@@ -4,6 +4,10 @@
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
+<!-- google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -14,6 +18,17 @@ tr {
 height:5em;                // <-- the rows height 
 }
 
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+#heading{
+  font-weight: bold;
+}
+
+#cover-img{
+  border-radius: 10px;
+}
 table{
  height:300px;              // <-- Select the height of the table
  display: -moz-groupbox;    // For firefox bad effect
@@ -24,14 +39,14 @@ table{
     <header >
         <div>
        
-        <h1 style="font-size: 5vw;vertical-align: middle;text-align: center;">TECHNICAL AND ENGINEERING BOARD</h1>
+        <h1 style="font-size: 5vw;vertical-align: middle;text-align: center;" id="heading">TECHNICAL AND ENGINEERING BOARD</h1>
         </div>
         <div>
             <h2 style="text-align: center; font-size: 3vw;">ARMY INSTITUTE OF TECHNOLOGY, PUNE</h2>
         </div>
     </header>
     <div style="margin-bottom: 10;align-items: center;margin-top: -1em;">
-        <img src="tb.PNG" style="margin-left: 36%;
+        <img src="tb.PNG" id="cover-img" style="margin-left: 36%; 
         margin-top: 1em;
         height: 25vw;">
     </div>
