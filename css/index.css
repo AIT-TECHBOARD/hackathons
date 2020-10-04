@@ -1,0 +1,21 @@
+tr {
+    height:5em;               /* // <-- the rows height */
+}
+    
+body{
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+    
+.heading{
+      align-content: center;
+}
+
+#cover-img{
+    margin: 0.5em;
+}
+
+table{
+     height:300px;              /* // <-- Select the height of the table */
+     display: -moz-groupbox;    /* // For firefox bad effect */
+}
