@@ -4,13 +4,22 @@ tr {
     
 body{
     height: 100%;
-    font-family: "Libre Baskerville", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
     
 .heading{
-      align-content: center;
+  display: block;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 50%;
 }
 
+.headr{
+  display: block;
+  margin-left: 130px;
+  margin-right: auto;
+  width: 50%;
+}
 #cover-img{
     display: block;
     margin-left: auto;
@@ -25,7 +34,6 @@ table{
      display: -moz-groupbox;    /* // For firefox bad effect */
 }
 
-/* profile cards starts here  */
 
 .our-team{
   text-align: center;
@@ -615,4 +623,4 @@ table{
         margin-right: auto;
         width: 20%;
     }
-}
+  }
