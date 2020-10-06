@@ -1,12 +1,31 @@
+
+body,html{
+    height: 100%;
+    font-family: "Libre Baskerville", sans-serif;
+    background:#33418d;
+}
 tr {
     height:5em;               /* // <-- the rows height */
 }
-    
-body{
-    height: 100%;
-    font-family: "Libre Baskerville", sans-serif;
+/*navbar*/
+.justify-content-end{
+  margin-left:70%
 }
-    
+.align-top{
+  margin-top:-4%;
+}
+.navbar-brand{
+  font-size:30px;
+  font-weight:700;
+}
+.nav-item{
+  font-weight:800;
+  font-size:100%;
+}
+.bg-primary{
+  background:#D83F87;
+}
+ /* end navbar*/   
 .heading{
       align-content: center;
 }
@@ -24,6 +43,7 @@ table{
      height:300px;              /* // <-- Select the height of the table */
      display: -moz-groupbox;    /* // For firefox bad effect */
 }
+
 
 /* profile cards starts here  */
 
@@ -43,6 +63,7 @@ table{
   width: 793px;
   max-width: 100%;
   margin: 1rem auto;
+  background:#44318D;
 }
 
 .card {
@@ -383,7 +404,7 @@ table{
 /* footer starts here  */
 
 .footer-distributed {
-  background-color: #000;
+  background-color: #2A1B3D;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -557,7 +578,8 @@ table{
     width: 100%;
     margin: auto;
     color: white;
-    background-color:#393e46 ;
+   
+    background-color:#A4B3B6 ;
     font-size: 13px;
     padding: 6px;
     text-align: center;
