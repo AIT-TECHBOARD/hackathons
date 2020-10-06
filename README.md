@@ -1,5 +1,5 @@
 
-# Technical & Engineering board AIT Pune-HACKATHONS
+# Technical & Engineering board AIT Pune-HACKATHONS, JOBS, EVENTS AND MUCH MORE
 
 
 <div align="center"><img src="images/tb_favicon.png"/></div>
