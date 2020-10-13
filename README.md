@@ -62,7 +62,7 @@
 - [Nishu Rai](https://github.com/nishu91020)
 - [Rohit Kumar](https://github.com/The-Fuse)
 - [Sivangi Chauhan](https://github.com/Co123Dev)
-- [Sekhar Singh](https://github.com/The-Anton)
+- [Shekhar Singh](https://github.com/The-Anton)
 - [Digvijay Singh](https://github.com/dsprajput)
 - [Sahil](https://github.com/DeOxYs24)
 - [Prophet-x](https://github.com/prophet-x)
