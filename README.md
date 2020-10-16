@@ -17,6 +17,28 @@
 ## Contribution Guidelines
 > Stray Pull Requests are not accepted. Before you start working on the project, discuss the needed changes with the owners of the repository. You can ask the owners to assign you [existing issues](https://github.com/AIT-TECHBOARD/hackathons/issues) or raise new issues and wait for acceptance. Don't forget to star the repository.
 
+# How to contribute?
+
+
+   - **:floppy_disk:Fork the repository:** `Look for the 'Fork' button in the repository pages`
+   
+   - **💕Clone the repository:** `git clone https://github.com/github_username/hackathons.git
+
+   - **😎Code Blooded:**  `Make changes to the project`
+
+   - **🗳Add the changes made to git:** `git add .`
+
+   - **📝Commit the changes:** `git commit -m "ENTER AN ATTRACTIVE COMMIT MESSAGE"`
+
+   - **👊Push the changes to the forked repository:** `git push origin master`
+
+   - **🙏Send your Pull Request (PR):** `After commiting go to the forked repository of your's and click on 'Pull request' and create one with an attractive name`*
+
+   - **🕤Wait wait and wait untill its approved or fix any bugs if markes**
+   - **🎉hurray! You did it!**
+
+
+
 ### Contribution Process
 * Make sure you have checked the [existing website](https://ait-techboard.github.io/hackathons/) thoroughly before making any changes.
 * Comment on the [issues](https://github.com/AIT-TECHBOARD/hackathons/issues) to get assigned. If you don't find an issue aligned with your purpose, you can create a [new issue](https://github.com/AIT-TECHBOARD/hackathons/issues/new) and wait for the reply of the owners.
@@ -40,7 +62,8 @@
 - [Nishu Rai](https://github.com/nishu91020)
 - [Rohit Kumar](https://github.com/The-Fuse)
 - [Sivangi Chauhan](https://github.com/Co123Dev)
-- [Sekhar Singh](https://github.com/The-Anton)
+- [Shekhar Singh](https://github.com/The-Anton)
 - [Digvijay Singh](https://github.com/dsprajput)
 - [Sahil](https://github.com/DeOxYs24)
 - [Prophet-x](https://github.com/prophet-x)
+- [Vikas](https://github.com/vikaschoudhary22)
