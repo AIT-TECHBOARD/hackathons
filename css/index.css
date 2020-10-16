@@ -17,6 +17,8 @@ tr {
   border-bottom: 1px solid seashell;
   z-index: 7;
 }
+
+
 .our-team h1{
   color: white;
 }
@@ -62,6 +64,26 @@ table{
      display: -moz-groupbox;    /* // For firefox bad effect */
 }
 
+#mainBody {
+  margin-top: 100px;
+}
+
+/*mainBody content like events, hackathons etc.*/
+
+.mainBodyList {
+  color: white;
+  margin: 30px;
+}
+.mainBodyList h2 {
+  font-family: 'Pacifico', cursive;
+}
+.mainBodyList p {
+  font-size: 18px;
+  padding-left: 18px;
+}
+ul.mainBodyList {
+  list-style-type: circle;
+}
 
 /* profile cards starts here  */
 
