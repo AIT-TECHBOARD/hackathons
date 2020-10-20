@@ -63,6 +63,7 @@
 - [Rohit Kumar](https://github.com/The-Fuse)
 - [Sivangi Chauhan](https://github.com/Co123Dev)
 - [Shekhar Singh](https://github.com/The-Anton)
+- [Govind Prasad Sharma](https://github.com/Gopu03GPS)
 - [Digvijay Singh](https://github.com/dsprajput)
 - [Sahil](https://github.com/DeOxYs24)
 - [Prophet-x](https://github.com/prophet-x)
