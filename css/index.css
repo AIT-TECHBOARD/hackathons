@@ -1,10 +1,11 @@
-body,html{
-    height: 100%;
-    font-family: "Libre Baskerville", sans-serif;
-    background:#121212;
+body,
+html {
+  height: 100%;
+  font-family: 'Libre Baskerville', sans-serif;
+  background: #121212;
 }
 tr {
-    height:5em;               /* // <-- the rows height */
+  height: 5em; /* // <-- the rows height */
 }
 /*navbar*/
 /* starts on 10/10/2020*/
@@ -18,8 +19,7 @@ tr {
   z-index: 7;
 }
 
-
-.our-team h1{
+.our-team h1 {
   color: white;
 }
 .cards-container {
@@ -28,40 +28,44 @@ tr {
 
 /* end on 10/10/2020 */
 
-.justify-content-end{
-  margin-left:70%
+.justify-content-end {
+  margin-left: 70%;
 }
-.align-top{
-  margin-top:-4%;
+.align-top {
+  margin-top: -4%;
 }
-.navbar-brand{
-  font-size:30px;
-  font-weight:700;
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
 }
-.nav-item{
-  font-weight:800;
-  font-size:100%;
+.nav-item {
+  font-weight: 800;
+  font-size: 100%;
 }
-.bg-primary{
-  background:#D83F87;
+.bg-primary {
+  background: #d83f87;
 }
- /* end navbar*/   
-.heading{
-      align-content: center;
-}
-
-#cover-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    margin: 1em 0em 1em 2em;
-
+/* end navbar*/
+.heading {
+  align-content: center;
 }
 
-table{
-     height:300px;              /* // <-- Select the height of the table */
-     display: -moz-groupbox;    /* // For firefox bad effect */
+#cover-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin: 1em 0em 1em 2em;
+}
+
+table {
+  height: 300px; /* // <-- Select the height of the table */
+  display: -moz-groupbox; /* // For firefox bad effect */
+}
+
+.table-primary > th {
+  font-size: 2em;
+  color: black;
 }
 
 #mainBody {
@@ -87,11 +91,11 @@ ul.mainBodyList {
 
 /* profile cards starts here  */
 
-.our-team{
+.our-team {
   text-align: center;
 }
 
-.our-team hr{
+.our-team hr {
   width: 20%;
   border: 4px solid #007bff;
   border-radius: 5px;
@@ -103,7 +107,7 @@ ul.mainBodyList {
   width: 793px;
   max-width: 100%;
   margin: 1rem auto;
-  background:#44318D;
+  background: #44318d;
 }
 
 .card {
@@ -115,13 +119,10 @@ ul.mainBodyList {
   position: relative;
   width: 300px;
   background: #fff;
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .card-one header {
   position: relative;
@@ -129,7 +130,8 @@ ul.mainBodyList {
   height: 60px;
   background-color: #c8c;
 }
-.card-one header::before, .card-one header::after {
+.card-one header::before,
+.card-one header::after {
   content: '';
   position: absolute;
   top: 0;
@@ -238,8 +240,8 @@ ul.mainBodyList {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background: #c8c;
-  -webkit-transition: width .3s, height .3s;
-  transition: width .3s, height .3s;
+  -webkit-transition: width 0.3s, height 0.3s;
+  transition: width 0.3s, height 0.3s;
 }
 .card-one .contacts a:last-of-type .fa {
   line-height: 36px;
@@ -253,8 +255,8 @@ ul.mainBodyList {
 .card-one footer a {
   padding: 0 1rem;
   color: #e2e2e2;
-  -webkit-transition: color .4s;
-  transition: color .4s;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
 }
 .card-one footer a:hover {
   color: #c8c;
@@ -273,13 +275,10 @@ ul.mainBodyList {
   position: relative;
   width: 300px;
   background: #fff;
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .card-two header {
   position: relative;
@@ -385,8 +384,8 @@ ul.mainBodyList {
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-transition: top .3s;
-  transition: top .3s;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
   background: #c8c;
 }
 .card-two .contacts a:last-of-type .fa {
@@ -408,8 +407,8 @@ ul.mainBodyList {
 .card-two footer p a {
   padding: 0 1rem;
   color: #e2e2e2;
-  -webkit-transition: color .4s;
-  transition: color .4s;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
 }
 .card-two footer p a:hover {
   color: #c8c;
@@ -438,20 +437,17 @@ ul.mainBodyList {
   }
 }
 
-
-
-
 /* footer starts here  */
 
 .footer-distributed {
-  background-color: #2A1B3D;
+  background-color: #2a1b3d;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   text-align: center;
   font: bold 16px sans-serif;
 
-  padding: 55px 40px 40px 20px ;
+  padding: 55px 40px 40px 20px;
 }
 
 .footer-distributed .footer-left,
@@ -461,10 +457,10 @@ ul.mainBodyList {
   vertical-align: top;
 }
 
-.footer-distributed .footer-image{
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 1em;
+.footer-distributed .footer-image {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 /* Footer left */
@@ -479,7 +475,7 @@ ul.mainBodyList {
 
 .footer-distributed h3 {
   color: #ffffff;
-  font: normal 46px "Cookie", cursive;
+  font: normal 46px 'Cookie', cursive;
   margin: 0;
 }
 
@@ -495,9 +491,9 @@ ul.mainBodyList {
   padding: 0;
 }
 
-.footer-distributed .footer-links .footer-heading{
-    font-size: 1.4em;
-    font-weight: 80;
+.footer-distributed .footer-links .footer-heading {
+  font-size: 1.4em;
+  font-weight: 80;
 }
 
 .footer-distributed .footer-links a {
@@ -548,10 +544,10 @@ ul.mainBodyList {
   margin: 0;
 }
 
-.footer-distributed .footer-center span{
-    color: #ffffff;
-    font-size: 1.4em;
-    font-weight: 50;
+.footer-distributed .footer-center span {
+  color: #ffffff;
+  font-size: 1.4em;
+  font-weight: 50;
 }
 
 .footer-distributed .footer-center p span {
@@ -611,36 +607,33 @@ ul.mainBodyList {
   margin-bottom: 5px;
 }
 
-
-
-
 .bottom-footer {
-    width: 100%;
-    margin: auto;
-    color: white;
-   
-    background-color:#A4B3B6 ;
-    font-size: 13px;
-    padding: 6px;
-    text-align: center;
+  width: 100%;
+  margin: auto;
+  color: white;
+
+  background-color: #a4b3b6;
+  font-size: 13px;
+  padding: 6px;
+  text-align: center;
 }
 
 .bottom-container {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .bottom-footer p {
-    font-size: 16px;
-    padding: 2px;
+  font-size: 16px;
+  padding: 2px;
 }
 
 .bottom-footer a {
-    color: white;
+  color: white;
 }
 
 .bottom-footer a:hover {
-    color: black;
+  color: black;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -650,10 +643,9 @@ ul.mainBodyList {
     font: bold 14px sans-serif;
   }
 
-  .footer-distributed .footer-image{
-      text-align: center;
+  .footer-distributed .footer-image {
+    text-align: center;
   }
-
 
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
@@ -669,12 +661,11 @@ ul.mainBodyList {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
-    #cover-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 20%;
-    }
+  #cover-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
 }
