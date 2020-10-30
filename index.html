@@ -511,8 +511,8 @@
 
       <!-- ------------------Profile cards starts here----------------- -->
 
-      <div class="our-team"><h1>Technical Board Heads</h1>
-          <hr>
+      <div class="our-team container">
+        <div class="teamheading"></div>
       </div>
 
       <div class="cards-container container-fluid">
@@ -641,6 +641,21 @@
       </div>
       <!---------X------ End Footer bottom Area -----------X-------->
   </div>
+  <script>
+      const heading = "Meet the amazing Heads";
+let i = 0;
+
+const typing = () => {
+   if (i < heading.length) {
+      document.querySelector(".teamheading").innerHTML += heading.charAt(i);
+      i++;
+
+      setTimeout(typing, 150);
+   }
+};
+
+typing();
+  </script>
 
 </body>
 </html>

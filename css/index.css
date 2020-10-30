@@ -669,3 +669,40 @@ ul.mainBodyList {
     width: 20%;
   }
 }
+
+
+.teamheading {
+  color: #ffffff;
+  font-size: 50px;
+  top: 10%;
+  left: 100%;
+  transform: translateX(-00%);
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.teamheading::after {
+  content: "";
+  width: 5px;
+  height: 55px;
+  background-color: #ffffff;
+  position: absolute;
+  animation: blinking 1s 3s infinite;
+}
+
+/** heading Type Writer animation*/
+
+@keyframes blinking {
+  0% {
+     background-color: #fff;
+  }
+  50% {
+     background-color: transparent;
+  }
+  100% {
+     background-color: #fff;
+  }
+}
+
