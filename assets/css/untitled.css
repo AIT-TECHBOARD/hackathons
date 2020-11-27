@@ -2,9 +2,8 @@ a:hover {
   color: #0f7864;
 }
 
-
 .clearfloat {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -28,7 +27,7 @@ a:hover {
 }
 .cards li:after,
 .cards li:before {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -49,27 +48,29 @@ a:hover {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   text-shadow: 1px 1px rgba(0, 0, 0, 0);
-  
 }
-.cards li .details > span,
-.cards li .details > a {
+.cards li .details > span {
   display: block;
   padding: 0 15px 0 35px;
   margin-bottom: 15px;
   text-decoration: none;
   position: relative;
 }
-.cards li .details > .fa {
+.cards li .icon-row {
   display: inline-block;
-  padding: 0 10px 0 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 2em;
+}
+.cards li .icon-row .fa {
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px 0 20px;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-decoration: none;
-  position: relative;
-  text-align: center;
+  color: #444;
 }
-.cards li .details > span:before,
-.cards li .details > a:before {
+.cards li .details > span:before {
   display: inline-block;
   font: normal normal normal 13px/1 FontAwesome;
   text-rendering: auto;
@@ -79,17 +80,6 @@ a:hover {
   width: 15px;
   text-align: center;
   color: #444;
-}
-.cards li .details a {
-  color: #55b820;
-  -webkit-transition: color 0.5s ease-in-out;
-  transition: color 0.5s ease-in-out;
-}
-.cards li .details a:hover,
-.cards li .details a:focus {
-  color: #55b820;
-  -webkit-transition: color 0.5s ease-in-out;
-  transition: color 0.5s ease-in-out;
 }
 .cards li .details .name {
   font-size: 1.9em;
@@ -106,7 +96,7 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  transform: scale(1.03);
 }
 .cards li:hover img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
@@ -153,11 +143,17 @@ a:hover {
     text-align: center;
     margin-bottom: 0.1em;
   }
-  .cards li .details > .fa {
+  .cards li .icon-row {
     display: inline-block;
-    padding: 10px 5px 0px 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cards li .icon-row .fa {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    margin-top: 15px;
     margin-bottom: 15px;
-    text-decoration: none;
-    position: relative;
+    color: #444;
   }
 }
