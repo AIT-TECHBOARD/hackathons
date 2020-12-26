@@ -57,11 +57,12 @@
 - Good luck! If you get stuck anywhere, ask for help but do not give up.
 
 ## Contributors List
+- [Snehasis Sahoo](https://github.com/kazukilapislazuli)
 - [Yashika Kalra](https://github.com/Yashika25)
 - [Chandresh Singh](https://github.com/The-Pascal)
 - [Nishu Rai](https://github.com/nishu91020)
 - [Rohit Kumar](https://github.com/The-Fuse)
-- [Sivangi Chauhan](https://github.com/Co123Dev)
+- [Shivangi Chauhan](https://github.com/Co123Dev)
 - [Shekhar Singh](https://github.com/The-Anton)
 - [Govind Prasad Sharma](https://github.com/Gopu03GPS)
 - [Digvijay Singh](https://github.com/dsprajput)
