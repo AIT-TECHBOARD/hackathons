@@ -58,6 +58,7 @@
 
 ## Contributors List
 - [Snehasis Sahoo](https://github.com/kazukilapislazuli)
+- [Kamal Mulani](https://github.com/prophet-x)
 - [Yashika Kalra](https://github.com/Yashika25)
 - [Chandresh Singh](https://github.com/The-Pascal)
 - [Nishu Rai](https://github.com/nishu91020)
