@@ -158,16 +158,23 @@ a:hover {
   }
 }
 
-.fe-join{
+.fe-join,
+.aakriti {
   margin: auto;
   text-align: center;
   justify-content: center;
 }
 
-#joining-btn{
+#joining-btn {
   background-color: white;
   font-weight: 900;
   font-size: 1.4em;
   padding: 0.3em;
   text-transform: capitalize;
+}
+
+.aakriti img,
+.aakriti embed {
+  width: 85%;
+  height: 95%;
 }
